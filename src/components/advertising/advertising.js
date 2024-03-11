@@ -1,7 +1,7 @@
-const Advertising = ({value, href, description}) => {
+const Advertising = ({title, value, href, description}) => {
     return (
         <div>
-            <a href={href}>{value}</a>
+            <h4>{title} <a href={href}>{value}</a></h4>
             <div>
                 {description}
             </div>
