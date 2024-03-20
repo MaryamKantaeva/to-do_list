@@ -1,9 +1,9 @@
 import Input from "../input/input";
 
-const Form = () => {
+const Form = ({tasks, setTasks}) => {
     return (
         <form>
-            <Input/>
+            <Input tasks={tasks} setTasks={setTasks}/>
         </form>
     )
 }
